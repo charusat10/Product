@@ -1,0 +1,45 @@
+body{
+	background: url('/assets/re.png') repeat-y 0 0 ;
+	
+}
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #E92024;
+	margin-top: 0%;
+}
+th{
+	font-size: 14px;
+	color: green;
+	margin: 1% 0 0 0 ;
+	float: left;
+}
+tr{
+	//border: 1px solid;
+}
+.filter{
+	margin: 15px 0 0 100px;
+	border: thin solid #12D49B;
+	border-radius: 10px;
+	
+}
+.adcontent{
+	margin-top: 15px;
+	border: thin solid #12D49B;
+	border-radius: 10px;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	margin:0;
+	border: thin solid #12D49B;
+	border-radius: 10px;
+	background-color: #3EC4ED;
+}
+
+.logo{
+	
+	display: block;
+	margin: 3px 0px 0px 25px;
+	//float: left;
+}

@@ -1,0 +1,23 @@
+<% @page_title = "Test v1.0" %>
+
+<body>
+<header class="row header">
+	<div class="col-lg-6 col-sm-5 col-xs-8">
+		<img src="/assets/ah.png">
+	</div>
+	<div class="col-lg-6 col-sm-5 col-xs-8">
+		<h2><%= link_to("Post Ad", {:controller =>'Products' ,:action => 'new'}, :class => "post") %></h2>
+	</div>
+</header>
+
+<div class="col-lg-3 col-md-3 filter">
+	<%= render(:partial => "filter") %>
+</div>
+
+<div class="col-lg-6 col-md-5 adcontent">
+<% @ad_details.each do |f| %> 
+	<%= render(:partial => "adContent", :locals => {:f => f}) %>
+<% end %>
+</div>
+</body>
+</html>
