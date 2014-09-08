@@ -26,3 +26,5 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+[ ![Codeship Status for charusat10/Product](https://codeship.io/projects/2ca3ceb0-19ca-0132-3500-62b540bd0b2c/status)](https://codeship.io/projects/34488)
